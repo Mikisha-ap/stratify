@@ -25,6 +25,7 @@ def inputData(fname):
         else:
             pop[this_pop]=[index]
         index=index+1
+    f.close()
     return evecs, pop, pids
         
 def dummy(x):
